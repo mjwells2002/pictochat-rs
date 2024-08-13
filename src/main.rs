@@ -46,7 +46,6 @@ use esp_idf_sys::esp_wifi_80211_tx;
 use ieee80211::MacAddress;
 use log::*;
 use rmp_serde::{Deserializer, Serializer};
-use sctp_proto::PayloadProtocolIdentifier;
 use serde::{Deserialize, Serialize};
 use utf16string::WString;
 
